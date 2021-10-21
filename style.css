@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+:root {
+    --bs-body-font-family: 'Roboto Condensed', sans-serif;
+    --bs-body-font-size: 14pt;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.8;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-weight: 700;
+}
+
+#fondo-con-imagen {
+    height: 70vh;
+    background-image: url("img/fotoportada.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
